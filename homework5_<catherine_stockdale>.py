@@ -13,6 +13,12 @@ print(f"The first and last items in the list are: {shoes[0]}, {shoes[5]}")
 
 #Transition to Tuple Exercise for Restaurant Menu Items 
 #Step 1 Tuple Exercise: 1.	A restaurant only offers five basic foods on its menu.  Decide on these five foods and store them in a tuple.
+menu = ("spaghetti", "lasagna", "pizza", "ravioli", "tiramisu")
 #Step 2: Print each item on the menu using a for loop.
+for item in menu: 
+    print(item)
 #Step 3: The restaurant has updated its menu, replacing two of the items with different foods.  Copy the tuple replacing two of the foods on the menu
+new_menu = ("spaghetti", "lasagna", "fettucine alfredo", "ravioli", "chocolate cake")
 #Step 4: Print each item on the revised menu using a loop.
+for item in new_menu:
+    print(item)
