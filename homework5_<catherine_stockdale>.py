@@ -3,9 +3,11 @@ shoes = ["Sambas", "Birkenstocks", "Cowgirl boots", "Hokas", "Chacos", "Vans Sli
 #Step 2: Print the items to the output console
 print(shoes)
 #Step 3: Print the first two items in the list using a slice.  The output message should be: The first two items in the list are: item1, item2
-print(f"The first two items in the list are: {shoes[0]}, {shoes[1]}")
+first_two = shoes[:2]
+print(f"The first two items in the list are: {first_two[0]}, {first_two[1]}")
 #Step 4: Print the middle two items in the list using a slice.  The output message should be: The middle two items in the list are: item3, item4
-print(f"The middle two items in the list are: {shoes[2]}, {shoes[3]}")
+middle_two = shoes[2:4]
+print(f"The middle two items in the list are: {middle_two[0]}, {middle_two[1]}")
 #Step 5: Print the first and last items in the list using indexes.  The output message should be: The first and last items in the list are: item1, item6
 print(f"The first and last items in the list are: {shoes[0]}, {shoes[5]}")
 
