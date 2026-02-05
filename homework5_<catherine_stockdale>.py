@@ -12,7 +12,7 @@ print(f"The middle two items in the list are: {middle_two[0]}, {middle_two[1]}")
 print(f"The first and last items in the list are: {shoes[0]}, {shoes[5]}")
 
 #Transition to Tuple Exercise for Restaurant Menu Items 
-#Step 1 Tuple Exercise: 1.	A restaurant only offers five basic foods on its menu.  Decide on these five foods and store them in a tuple.
+#Step 1 Tuple Exercise: A restaurant only offers five basic foods on its menu. Decide on these five foods and store them in a tuple.
 menu = ("spaghetti", "lasagna", "pizza", "ravioli", "tiramisu")
 #Step 2: Print each item on the menu using a for loop.
 for item in menu: 
